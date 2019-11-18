@@ -107,5 +107,5 @@ void TClasster::PrintResult()
 	cout << "Count of Complete task: " << setw(12) << CountCompleteTask << endl;
 	cout << "Count of Not Complete task: " << setw(8) << CountNotCompleteTask << endl;
 	cout << "Count of task error: " << setw(15) << CountTaskError << endl;
-	cout << "Average load processors: " << setw(10) << LoadProc / tact + 1 << " of "<<Proc<< endl;
+	cout << "Average load processors: " << setw(10) << LoadProc / tact + 1 << " of " <<Proc<< endl;
 }
